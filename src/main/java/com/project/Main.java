@@ -16,6 +16,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
 
         // Carrega la vista inicial des del fitxer FXML
+        //CAMBIAR ESTO PARA QUE FUNCIONE
         Parent root = FXMLLoader.load(getClass().getResource("/com/project/calc.fxml"));
         Scene scene = new Scene(root);
 
